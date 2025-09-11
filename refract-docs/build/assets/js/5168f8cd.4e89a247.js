@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrefract_docs=self.webpackChunkrefract_docs||[]).push([[9780],{1142:s=>{s.exports=JSON.parse('{"name":"@easyops-cn/docusaurus-search-local","id":"default"}')}}]);

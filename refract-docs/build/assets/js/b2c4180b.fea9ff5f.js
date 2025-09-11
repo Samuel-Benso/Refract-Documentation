@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrefract_docs=self.webpackChunkrefract_docs||[]).push([[9459],{220:e=>{e.exports=JSON.parse('{"label":"reactive","permalink":"/blog/tags/reactive","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

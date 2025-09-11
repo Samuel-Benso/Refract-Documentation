@@ -982,7 +982,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
-  "docusaurus-theme-search-algolia": {},
+  "@easyops-cn/docusaurus-search-local": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

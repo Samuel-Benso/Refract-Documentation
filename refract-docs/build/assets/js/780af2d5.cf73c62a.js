@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrefract_docs=self.webpackChunkrefract_docs||[]).push([[2498],{1834:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/best-practices","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -39,6 +39,19 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "C:\\Users\\HELLO\\Documents\\Docs\\Refract\\refract-docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      {
+        "hashed": true,
+        "language": [
+          "en"
+        ],
+        "highlightSearchTermsOnTargetPage": true,
+        "explicitSearchResultPath": true
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/refract-social-card.jpg",
     "navbar": {
@@ -329,14 +342,6 @@ export default {
         }
       ]
     },
-    "algolia": {
-      "appId": "YOUR_APP_ID",
-      "apiKey": "YOUR_SEARCH_API_KEY",
-      "indexName": "refract",
-      "contextualSearch": true,
-      "searchParameters": {},
-      "searchPagePath": "search"
-    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -361,7 +366,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
