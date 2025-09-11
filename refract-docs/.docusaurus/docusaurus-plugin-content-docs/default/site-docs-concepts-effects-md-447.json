@@ -1,0 +1,24 @@
+{
+  "id": "concepts/effects",
+  "title": "Effects",
+  "description": "Effects in Refract handle side effects and lifecycle management within components. They provide a clean, declarative way to manage asynchronous operations, subscriptions, timers, and other side effects while ensuring proper cleanup and dependency tracking.",
+  "source": "@site/docs/concepts/effects.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/effects",
+  "permalink": "/docs/concepts/effects",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/effects.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Optics",
+    "permalink": "/docs/concepts/optics"
+  },
+  "next": {
+    "title": "API Reference Overview",
+    "permalink": "/docs/api/overview"
+  }
+}

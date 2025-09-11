@@ -1,0 +1,24 @@
+{
+  "id": "api/createApp",
+  "title": "createApp",
+  "description": "The createApp function initializes a new Refract application instance. It serves as the entry point for your application, handling the root component setup and providing configuration options for the entire application.",
+  "source": "@site/docs/api/createApp.md",
+  "sourceDirName": "api",
+  "slug": "/api/createApp",
+  "permalink": "/docs/api/createApp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/createApp.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Reference Overview",
+    "permalink": "/docs/api/overview"
+  },
+  "next": {
+    "title": "createComponent",
+    "permalink": "/docs/api/createComponent"
+  }
+}

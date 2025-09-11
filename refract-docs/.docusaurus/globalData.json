@@ -1,0 +1,128 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/createApp",
+              "path": "/docs/api/createApp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/createComponent",
+              "path": "/docs/api/createComponent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/api/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useEffect",
+              "path": "/docs/api/useEffect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useFlash",
+              "path": "/docs/api/useFlash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useLens",
+              "path": "/docs/api/useLens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useOptic",
+              "path": "/docs/api/useOptic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useRefraction",
+              "path": "/docs/api/useRefraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/components",
+              "path": "/docs/concepts/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/effects",
+              "path": "/docs/concepts/effects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/lenses",
+              "path": "/docs/concepts/lenses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/optics",
+              "path": "/docs/concepts/optics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/refractions",
+              "path": "/docs/concepts/refractions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contributing",
+              "path": "/docs/contributing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/animation-basics",
+              "path": "/docs/tutorials/animation-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/counter-app",
+              "path": "/docs/tutorials/counter-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/global-theme",
+              "path": "/docs/tutorials/global-theme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/todo-list",
+              "path": "/docs/tutorials/todo-list",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

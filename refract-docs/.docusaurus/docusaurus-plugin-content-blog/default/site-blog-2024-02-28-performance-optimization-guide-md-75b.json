@@ -1,0 +1,62 @@
+{
+  "permalink": "/blog/performance-optimization-guide",
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/blog/2024-02-28-performance-optimization-guide.md",
+  "source": "@site/blog/2024-02-28-performance-optimization-guide.md",
+  "title": "Mastering Performance in Refract - Advanced Optimization Techniques",
+  "description": "Performance is at the heart of great user experiences. While Refract provides excellent performance out of the box through its reactive architecture, understanding advanced optimization techniques can help you build lightning-fast applications that scale beautifully.",
+  "date": "2024-02-28T00:00:00.000Z",
+  "formattedDate": "February 28, 2024",
+  "tags": [
+    {
+      "label": "performance",
+      "permalink": "/blog/tags/performance"
+    },
+    {
+      "label": "optimization",
+      "permalink": "/blog/tags/optimization"
+    },
+    {
+      "label": "best-practices",
+      "permalink": "/blog/tags/best-practices"
+    },
+    {
+      "label": "advanced",
+      "permalink": "/blog/tags/advanced"
+    }
+  ],
+  "readingTime": 7.25,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Refract Team",
+      "title": "Core Development Team",
+      "url": "https://github.com/refract-js",
+      "image_url": "https://github.com/refract-js.png",
+      "imageURL": "https://github.com/refract-js.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "performance-optimization-guide",
+    "title": "Mastering Performance in Refract - Advanced Optimization Techniques",
+    "authors": [
+      {
+        "name": "Refract Team",
+        "title": "Core Development Team",
+        "url": "https://github.com/refract-js",
+        "image_url": "https://github.com/refract-js.png",
+        "imageURL": "https://github.com/refract-js.png"
+      }
+    ],
+    "tags": [
+      "performance",
+      "optimization",
+      "best-practices",
+      "advanced"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Introducing Refract - A New Era of Reactive UI Development",
+    "permalink": "/blog/introducing-refract"
+  }
+}

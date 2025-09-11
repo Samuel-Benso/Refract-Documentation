@@ -1,0 +1,15 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Mastering Performance in Refract - Advanced Optimization Techniques",
+      "permalink": "/blog/performance-optimization-guide",
+      "unlisted": false
+    },
+    {
+      "title": "Introducing Refract - A New Era of Reactive UI Development",
+      "permalink": "/blog/introducing-refract",
+      "unlisted": false
+    }
+  ]
+}

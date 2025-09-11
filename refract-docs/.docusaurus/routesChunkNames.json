@@ -1,0 +1,310 @@
+{
+  "/__docusaurus/debug-a49": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/__docusaurus/debug/config-0e7": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/__docusaurus/debug/content-1e3": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-659": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/__docusaurus/debug/metadata-4b8": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/__docusaurus/debug/registry-b50": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/__docusaurus/debug/routes-bfb": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugcfa-9a9"
+    }
+  },
+  "/blog-4b7": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-36-f-9f2"
+      },
+      {
+        "content": "content---blog-8-c-2-f2c"
+      }
+    ],
+    "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/archive-f47": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/introducing-refract-e18": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introducing-refract-71-f-893"
+  },
+  "/blog/performance-optimization-guide-39b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-performance-optimization-guide-75-b-9d0"
+  },
+  "/blog/tags-01d": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/advanced-7d4": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-36-f-9f2"
+      }
+    ],
+    "tag": "tag---blog-tags-advancedd-02-ddc",
+    "listMetadata": "listMetadata---blog-tags-advanced-564-7b3"
+  },
+  "/blog/tags/announcement-f19": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-c-2-f2c"
+      }
+    ],
+    "tag": "tag---blog-tags-announcement-283-be2",
+    "listMetadata": "listMetadata---blog-tags-announcementece-ff0"
+  },
+  "/blog/tags/best-practices-538": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-36-f-9f2"
+      }
+    ],
+    "tag": "tag---blog-tags-best-practicesce-8-def",
+    "listMetadata": "listMetadata---blog-tags-best-practices-780-0d2"
+  },
+  "/blog/tags/javascript-27f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-c-2-f2c"
+      }
+    ],
+    "tag": "tag---blog-tags-javascriptbee-990",
+    "listMetadata": "listMetadata---blog-tags-javascripte-6-e-7d7"
+  },
+  "/blog/tags/optimization-85c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-36-f-9f2"
+      }
+    ],
+    "tag": "tag---blog-tags-optimization-8-f-3-ccc",
+    "listMetadata": "listMetadata---blog-tags-optimization-393-0ad"
+  },
+  "/blog/tags/performance-89c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-36-f-9f2"
+      }
+    ],
+    "tag": "tag---blog-tags-performancee-62-213",
+    "listMetadata": "listMetadata---blog-tags-performance-96-e-49e"
+  },
+  "/blog/tags/reactive-35c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-c-2-f2c"
+      }
+    ],
+    "tag": "tag---blog-tags-reactiveb-2-c-ccd",
+    "listMetadata": "listMetadata---blog-tags-reactive-9-c-6-483"
+  },
+  "/blog/tags/ui-322": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blogf-33-c73"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-8-c-2-f2c"
+      }
+    ],
+    "tag": "tag---blog-tags-ui-8-dd-6a9",
+    "listMetadata": "listMetadata---blog-tags-ui-3-fe-98d"
+  },
+  "/search-96a": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---search-732-6d7"
+    }
+  },
+  "/docs-739": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docs-84-b-cbc"
+    }
+  },
+  "/docs-06b": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-f80": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/api/createApp-f05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-create-appe-2-b-6a3"
+  },
+  "/docs/api/createComponent-0a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-create-component-54-f-e26"
+  },
+  "/docs/api/overview-79e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-overview-65-d-0e3"
+  },
+  "/docs/api/useEffect-6ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-use-effect-105-c5a"
+  },
+  "/docs/api/useFlash-74b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-use-flashf-8-f-c8e"
+  },
+  "/docs/api/useLens-15d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-use-lens-970-cb1"
+  },
+  "/docs/api/useOptic-e77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-use-opticb-72-696"
+  },
+  "/docs/api/useRefraction-f39": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-use-refraction-1-da-850"
+  },
+  "/docs/concepts/components-5b5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-components-01-c-432"
+  },
+  "/docs/concepts/effects-45a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-effects-447-382"
+  },
+  "/docs/concepts/lenses-382": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-lensesc-69-db0"
+  },
+  "/docs/concepts/optics-da5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-optics-40-e-cc0"
+  },
+  "/docs/concepts/refractions-96d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-refractionsf-33-35d"
+  },
+  "/docs/contributing-ff2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-contributing-4-d-5-478"
+  },
+  "/docs/getting-started-a24": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-startedd-58-f94"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/tutorials/animation-basics-ac8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-animation-basics-647-4e6"
+  },
+  "/docs/tutorials/counter-app-774": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-counter-appcef-506"
+  },
+  "/docs/tutorials/global-theme-456": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-global-themebb-9-3b9"
+  },
+  "/docs/tutorials/todo-list-aad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-todo-list-58-f-2f5"
+  },
+  "/-b9e": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---698-eb3"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

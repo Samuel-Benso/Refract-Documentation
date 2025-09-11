@@ -1,0 +1,24 @@
+{
+  "id": "tutorials/counter-app",
+  "title": "Building a Counter App",
+  "description": "In this tutorial, you'll build a complete counter application using Refract. This hands-on guide will teach you the fundamentals of Refract development, including state management, effects, and component composition.",
+  "source": "@site/docs/tutorials/counter-app.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/counter-app",
+  "permalink": "/docs/tutorials/counter-app",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/tutorials/counter-app.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useLens",
+    "permalink": "/docs/api/useLens"
+  },
+  "next": {
+    "title": "Building a Todo List App",
+    "permalink": "/docs/tutorials/todo-list"
+  }
+}

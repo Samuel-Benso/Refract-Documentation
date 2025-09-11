@@ -1,0 +1,24 @@
+{
+  "id": "api/createComponent",
+  "title": "createComponent",
+  "description": "The createComponent function creates reactive components in Refract. Components are pure functions that receive props and a lens, returning JSX that describes the UI. They automatically re-render when their reactive dependencies change.",
+  "source": "@site/docs/api/createComponent.md",
+  "sourceDirName": "api",
+  "slug": "/api/createComponent",
+  "permalink": "/docs/api/createComponent",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/createComponent.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "createApp",
+    "permalink": "/docs/api/createApp"
+  },
+  "next": {
+    "title": "useRefraction",
+    "permalink": "/docs/api/useRefraction"
+  }
+}

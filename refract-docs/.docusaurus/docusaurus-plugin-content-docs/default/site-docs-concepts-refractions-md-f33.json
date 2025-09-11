@@ -1,0 +1,24 @@
+{
+  "id": "concepts/refractions",
+  "title": "Refractions",
+  "description": "Refractions are the core reactive primitives in Refract. They represent units of state that automatically notify the UI when their values change. Think of them as reactive variables that eliminate the need for manual state management and re-rendering logic.",
+  "source": "@site/docs/concepts/refractions.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/refractions",
+  "permalink": "/docs/concepts/refractions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/refractions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components",
+    "permalink": "/docs/concepts/components"
+  },
+  "next": {
+    "title": "Lenses",
+    "permalink": "/docs/concepts/lenses"
+  }
+}

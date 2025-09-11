@@ -1,0 +1,24 @@
+{
+  "id": "api/useOptic",
+  "title": "useOptic",
+  "description": "The useOptic hook allows you to use reusable logic patterns (optics) within components. Optics encapsulate complex stateful logic that can be shared across multiple components, providing a clean way to compose functionality.",
+  "source": "@site/docs/api/useOptic.md",
+  "sourceDirName": "api",
+  "slug": "/api/useOptic",
+  "permalink": "/docs/api/useOptic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/useOptic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useEffect",
+    "permalink": "/docs/api/useEffect"
+  },
+  "next": {
+    "title": "useFlash",
+    "permalink": "/docs/api/useFlash"
+  }
+}

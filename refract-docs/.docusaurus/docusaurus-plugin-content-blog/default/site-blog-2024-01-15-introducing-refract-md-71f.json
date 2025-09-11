@@ -1,0 +1,62 @@
+{
+  "permalink": "/blog/introducing-refract",
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/blog/2024-01-15-introducing-refract.md",
+  "source": "@site/blog/2024-01-15-introducing-refract.md",
+  "title": "Introducing Refract - A New Era of Reactive UI Development",
+  "description": "Today, we're excited to announce Refract, a revolutionary JavaScript framework that brings reactive programming to the forefront of UI development. Inspired by the physics of light refraction, Refract bends traditional paradigms to create more intuitive, performant, and maintainable applications.",
+  "date": "2024-01-15T00:00:00.000Z",
+  "formattedDate": "January 15, 2024",
+  "tags": [
+    {
+      "label": "announcement",
+      "permalink": "/blog/tags/announcement"
+    },
+    {
+      "label": "reactive",
+      "permalink": "/blog/tags/reactive"
+    },
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    },
+    {
+      "label": "ui",
+      "permalink": "/blog/tags/ui"
+    }
+  ],
+  "readingTime": 3.705,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Refract Team",
+      "title": "Core Development Team",
+      "url": "https://github.com/refract-js",
+      "image_url": "https://github.com/refract-js.png",
+      "imageURL": "https://github.com/refract-js.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "introducing-refract",
+    "title": "Introducing Refract - A New Era of Reactive UI Development",
+    "authors": [
+      {
+        "name": "Refract Team",
+        "title": "Core Development Team",
+        "url": "https://github.com/refract-js",
+        "image_url": "https://github.com/refract-js.png",
+        "imageURL": "https://github.com/refract-js.png"
+      }
+    ],
+    "tags": [
+      "announcement",
+      "reactive",
+      "javascript",
+      "ui"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Mastering Performance in Refract - Advanced Optimization Techniques",
+    "permalink": "/blog/performance-optimization-guide"
+  }
+}
