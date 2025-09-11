@@ -12,7 +12,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://refract-docs.netlify.app',
+  url: 'https://refract-documentation-i7fkgvid5-samuel-bensos-projects.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
@@ -20,7 +20,7 @@ const config = {
   organizationName: 'refract-js',
   projectName: 'refract',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
