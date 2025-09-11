@@ -1,0 +1,18 @@
+{
+  "id": "advanced/testing",
+  "title": "Testing Guide",
+  "description": "This guide covers best practices and utilities for testing Refract applications.",
+  "source": "@site/docs/advanced/testing.md",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/testing",
+  "permalink": "/docs/advanced/testing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/advanced/testing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "testing",
+    "title": "Testing Guide"
+  }
+}

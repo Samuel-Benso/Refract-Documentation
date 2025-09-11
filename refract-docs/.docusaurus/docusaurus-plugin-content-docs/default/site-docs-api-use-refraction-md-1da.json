@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "createComponent",
-    "permalink": "/docs/api/createComponent"
+    "title": "createOptic",
+    "permalink": "/docs/api/createOptic"
   },
   "next": {
     "title": "useEffect",

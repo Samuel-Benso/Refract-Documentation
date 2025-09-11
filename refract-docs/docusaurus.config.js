@@ -22,6 +22,7 @@ const config = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -39,10 +40,19 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/refract-js/refract/tree/main/docs/',
+          path: 'docs',
+          routeBasePath: '/docs',
+          include: ['**/*.md', '**/*.mdx'],
+          exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}'],
         },
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/refract-js/refract/tree/main/docs/',
+          blogTitle: 'Refract Blog',
+          blogDescription: 'Updates, news and announcements about the Refract framework',
+          postsPerPage: 10,
+          blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 5,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,20 +86,19 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/intro',
+            label: 'Documentation',
             position: 'left',
-            label: 'Docs',
           },
           {
-            to: '/docs/api/overview',
+            to: '/docs/api',
             label: 'API',
             position: 'left',
           },
           {
             to: '/blog',
             label: 'Blog',
-            position: 'left'
+            position: 'left',
           },
           {
             href: 'https://github.com/refract-js/refract',
@@ -110,11 +119,11 @@ const config = {
               },
               {
                 label: 'API Reference',
-                to: '/docs/api/overview',
+                to: '/docs/api',
               },
               {
                 label: 'Tutorials',
-                to: '/docs/tutorials/counter-app',
+                to: '/docs/tutorials/getting-started',
               },
             ],
           },
@@ -154,7 +163,21 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        defaultLanguage: 'javascript',
+        additionalLanguages: ['jsx', 'bash', 'json']
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+      onBrokenAnchors: 'warn',
     }),
 };
 

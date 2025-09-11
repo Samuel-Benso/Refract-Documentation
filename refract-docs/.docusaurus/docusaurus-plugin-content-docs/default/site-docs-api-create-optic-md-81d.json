@@ -1,0 +1,27 @@
+{
+  "id": "api/createOptic",
+  "title": "createOptic",
+  "description": "createOptic is a utility function that helps you create reactive references to nested state values in Refract.",
+  "source": "@site/docs/api/createOptic.md",
+  "sourceDirName": "api",
+  "slug": "/api/createOptic",
+  "permalink": "/docs/api/createOptic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/createOptic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "createOptic",
+    "title": "createOptic"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useOptic",
+    "permalink": "/docs/api/useOptic"
+  },
+  "next": {
+    "title": "useRefraction",
+    "permalink": "/docs/api/useRefraction"
+  }
+}

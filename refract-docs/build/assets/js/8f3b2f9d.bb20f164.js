@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrefract_docs=self.webpackChunkrefract_docs||[]).push([[7993],{4463:a=>{a.exports=JSON.parse('{"label":"optimization","permalink":"/blog/tags/optimization","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

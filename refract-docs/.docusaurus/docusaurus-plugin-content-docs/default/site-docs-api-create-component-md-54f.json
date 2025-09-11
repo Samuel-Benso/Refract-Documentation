@@ -18,7 +18,7 @@
     "permalink": "/docs/api/createApp"
   },
   "next": {
-    "title": "useRefraction",
-    "permalink": "/docs/api/useRefraction"
+    "title": "useLens",
+    "permalink": "/docs/api/useLens"
   }
 }

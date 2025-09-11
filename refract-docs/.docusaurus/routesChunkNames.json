@@ -1,8 +1,8 @@
 {
-  "/blog-4b7": {
+  "/blog-e35": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -13,43 +13,49 @@
         "content": "8c2c33e4"
       }
     ],
-    "metadata": "b2b675dd"
+    "__props": "c15d9823"
   },
-  "/blog/archive-f47": {
+  "/blog/archive-182": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
-    "archive": "b2f554cd"
+    "__props": "f81c1134"
   },
-  "/blog/introducing-refract-e18": {
+  "/blog/introducing-refract-261": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "f33ebcf1"
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "71fc5b05"
   },
-  "/blog/performance-optimization-guide-39b": {
+  "/blog/performance-optimization-guide-360": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "f33ebcf1"
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "content": "75b763bb"
   },
-  "/blog/tags-01d": {
+  "/blog/tags-287": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "__props": "3a2db09e"
   },
-  "/blog/tags/advanced-7d4": {
+  "/blog/tags/advanced-e70": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -57,13 +63,12 @@
         "content": "36f6d63a"
       }
     ],
-    "tag": "d02aa2cd",
-    "listMetadata": "564be568"
+    "__props": "1b62ecf0"
   },
-  "/blog/tags/announcement-f19": {
+  "/blog/tags/announcement-3d6": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -71,13 +76,12 @@
         "content": "8c2c33e4"
       }
     ],
-    "tag": "283e63f8",
-    "listMetadata": "ece86388"
+    "__props": "9d86e7fa"
   },
-  "/blog/tags/best-practices-538": {
+  "/blog/tags/best-practices-699": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -85,13 +89,12 @@
         "content": "36f6d63a"
       }
     ],
-    "tag": "ce808bba",
-    "listMetadata": "780af2d5"
+    "__props": "b37c8625"
   },
-  "/blog/tags/javascript-27f": {
+  "/blog/tags/javascript-fcb": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -99,13 +102,12 @@
         "content": "8c2c33e4"
       }
     ],
-    "tag": "beea6c26",
-    "listMetadata": "e6e8ac82"
+    "__props": "17b93f41"
   },
-  "/blog/tags/optimization-85c": {
+  "/blog/tags/optimization-09c": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -113,13 +115,12 @@
         "content": "36f6d63a"
       }
     ],
-    "tag": "8f3b2f9d",
-    "listMetadata": "393e2f44"
+    "__props": "06758c2b"
   },
-  "/blog/tags/performance-89c": {
+  "/blog/tags/performance-93a": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -127,13 +128,12 @@
         "content": "36f6d63a"
       }
     ],
-    "tag": "e62c5aa0",
-    "listMetadata": "96e76de9"
+    "__props": "74c5eee6"
   },
-  "/blog/tags/reactive-35c": {
+  "/blog/tags/reactive-390": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -141,13 +141,12 @@
         "content": "8c2c33e4"
       }
     ],
-    "tag": "b2c4180b",
-    "listMetadata": "9c651eb7"
+    "__props": "e3e82d33"
   },
-  "/blog/tags/ui-322": {
+  "/blog/tags/ui-1e9": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "f33ebcf1"
+      "plugin": "36994c47"
     },
     "sidebar": "814f3328",
     "items": [
@@ -155,116 +154,139 @@
         "content": "8c2c33e4"
       }
     ],
-    "tag": "8dd790d1",
-    "listMetadata": "3fe38aa2"
+    "__props": "84783565"
   },
-  "/search-61b": {
+  "/search-822": {
     "__comp": "1a4e3797",
     "__context": {
-      "plugin": "5168f8cd"
+      "plugin": "138e0e15"
     }
   },
-  "/docs-594": {
+  "/docs-008": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "84b14f2b"
+      "plugin": "aba21aa0"
     }
   },
-  "/docs-aa9": {
+  "/docs-792": {
     "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__props": "0058b4c6"
   },
-  "/docs-b38": {
+  "/docs-2a7": {
     "__comp": "a94703ab"
   },
-  "/docs/api/createApp-f05": {
+  "/docs/advanced/performance-cef": {
+    "__comp": "17896441",
+    "content": "64f00bae"
+  },
+  "/docs/advanced/testing-7ad": {
+    "__comp": "17896441",
+    "content": "01feaeb7"
+  },
+  "/docs/api-a3f": {
+    "__comp": "17896441",
+    "content": "5e8c322a"
+  },
+  "/docs/api/createApp-090": {
     "__comp": "17896441",
     "content": "e2bea499"
   },
-  "/docs/api/createComponent-0a5": {
+  "/docs/api/createComponent-e73": {
     "__comp": "17896441",
     "content": "54f710e7"
   },
-  "/docs/api/overview-79e": {
+  "/docs/api/createOptic-ae2": {
+    "__comp": "17896441",
+    "content": "81d9d73e"
+  },
+  "/docs/api/overview-211": {
     "__comp": "17896441",
     "content": "65df3d35"
   },
-  "/docs/api/useEffect-6ce": {
+  "/docs/api/useEffect-a6d": {
     "__comp": "17896441",
     "content": "105957b1"
   },
-  "/docs/api/useFlash-74b": {
+  "/docs/api/useFlash-3ce": {
     "__comp": "17896441",
     "content": "f8f0fc8b"
   },
-  "/docs/api/useLens-15d": {
+  "/docs/api/useLens-5c2": {
     "__comp": "17896441",
     "content": "9703f14c"
   },
-  "/docs/api/useOptic-e77": {
+  "/docs/api/useOptic-6b0": {
     "__comp": "17896441",
     "content": "b720391a"
   },
-  "/docs/api/useRefraction-f39": {
+  "/docs/api/useRefraction-a76": {
     "__comp": "17896441",
     "content": "1da79ba0"
   },
-  "/docs/concepts/components-5b5": {
+  "/docs/concepts/components-749": {
     "__comp": "17896441",
     "content": "01c7f349"
   },
-  "/docs/concepts/effects-45a": {
+  "/docs/concepts/effects-4d4": {
     "__comp": "17896441",
     "content": "44797ccf"
   },
-  "/docs/concepts/lenses-382": {
+  "/docs/concepts/lenses-d44": {
     "__comp": "17896441",
     "content": "c69e82a3"
   },
-  "/docs/concepts/optics-da5": {
+  "/docs/concepts/optics-635": {
     "__comp": "17896441",
     "content": "40e2231b"
   },
-  "/docs/concepts/refractions-96d": {
+  "/docs/concepts/refractions-319": {
     "__comp": "17896441",
     "content": "f33643d8"
   },
-  "/docs/contributing-ff2": {
+  "/docs/concepts/state-management-781": {
+    "__comp": "17896441",
+    "content": "7244d080"
+  },
+  "/docs/contributing-069": {
     "__comp": "17896441",
     "content": "4d54d076"
   },
-  "/docs/getting-started-a24": {
+  "/docs/getting-started-2a1": {
     "__comp": "17896441",
     "content": "d589d3a7"
   },
-  "/docs/installation-b2a": {
+  "/docs/installation-176": {
     "__comp": "17896441",
     "content": "3b8c55ea"
   },
-  "/docs/intro-aed": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/tutorials/animation-basics-ac8": {
+  "/docs/tutorials/animation-basics-270": {
     "__comp": "17896441",
     "content": "6474725d"
   },
-  "/docs/tutorials/counter-app-774": {
+  "/docs/tutorials/counter-app-680": {
     "__comp": "17896441",
     "content": "cefad829"
   },
-  "/docs/tutorials/global-theme-456": {
+  "/docs/tutorials/getting-started-1ff": {
+    "__comp": "17896441",
+    "content": "8e36650c"
+  },
+  "/docs/tutorials/global-theme-a07": {
     "__comp": "17896441",
     "content": "bb954f12"
   },
-  "/docs/tutorials/todo-list-aad": {
+  "/docs/tutorials/todo-list-447": {
     "__comp": "17896441",
     "content": "58fe432f"
   },
-  "/-b9e": {
+  "/-2e1": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "698c32e7"
+      "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   }

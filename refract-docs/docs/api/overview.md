@@ -5,27 +5,27 @@ This section provides comprehensive documentation for all Refract APIs, includin
 ## Core APIs
 
 ### Application Management
-- **[createApp](./createApp)** - Initialize and configure a Refract application
-- **[mount](./createApp#mount)** - Mount the application to a DOM element
+- **[createApp](createApp)** - Initialize and configure a Refract application
+- **[mount](createApp#mount)** - Mount the application to a DOM element
 
 ### Component System
-- **[createComponent](./createComponent)** - Create reactive components
-- **[memo](./createComponent#memo)** - Optimize component re-rendering
-- **[lazy](./createComponent#lazy)** - Code-split components for better performance
+- **[createComponent](createComponent)** - Create reactive components
+- **[memo](createComponent#memo)** - Optimize component re-rendering
+- **[lazy](createComponent#lazy)** - Code-split components for better performance
 
 ### State Management
-- **[useRefraction](./useRefraction)** - Create reactive state variables
-- **[createRefraction](./useRefraction#global-refractions)** - Create global reactive state
-- **[useDerived](./useRefraction#derived-state)** - Create computed reactive values
+- **[useRefraction](useRefraction)** - Create reactive state variables
+- **[createRefraction](useRefraction#global-refractions)** - Create global reactive state
+- **[useDerived](useRefraction#derived-state)** - Create computed reactive values
 
 ### Effects and Lifecycle
-- **[useEffect](./useEffect)** - Handle side effects and lifecycle events
-- **[useFlash](./useFlash)** - Execute effects after render for animations
-- **[useOptic](./useOptic)** - Create and use reusable logic patterns
+- **[useEffect](useEffect)** - Handle side effects and lifecycle events
+- **[useFlash](useFlash)** - Execute effects after render for animations
+- **[useOptic](useOptic)** - Create and use reusable logic patterns
 
 ### Lens System
-- **[useLens](./useLens)** - Access component-scoped reactive features
-- **[batch](./useLens#batching)** - Optimize multiple state updates
+- **[useLens](useLens)** - Access component-scoped reactive features
+- **[batch](useLens#batching)** - Optimize multiple state updates
 
 ## Quick Reference
 

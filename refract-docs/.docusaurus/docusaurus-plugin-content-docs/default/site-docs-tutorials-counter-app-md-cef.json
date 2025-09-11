@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "useLens",
-    "permalink": "/docs/api/useLens"
+    "title": "useFlash",
+    "permalink": "/docs/api/useFlash"
   },
   "next": {
     "title": "Building a Todo List App",

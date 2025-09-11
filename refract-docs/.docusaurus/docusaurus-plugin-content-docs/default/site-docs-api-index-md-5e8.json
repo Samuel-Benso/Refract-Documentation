@@ -1,0 +1,18 @@
+{
+  "id": "api/api",
+  "title": "API Reference",
+  "description": "Welcome to the Refract API reference documentation. This section provides detailed information about the core APIs available in Refract.",
+  "source": "@site/docs/api/index.md",
+  "sourceDirName": "api",
+  "slug": "/api/",
+  "permalink": "/docs/api/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "api",
+    "title": "API Reference"
+  }
+}

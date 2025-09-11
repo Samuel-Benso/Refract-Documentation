@@ -1,0 +1,18 @@
+{
+  "id": "advanced/performance",
+  "title": "Performance Optimization",
+  "description": "This guide covers various techniques to optimize the performance of your Refract applications.",
+  "source": "@site/docs/advanced/performance.md",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/performance",
+  "permalink": "/docs/advanced/performance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/advanced/performance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "performance",
+    "title": "Performance Optimization"
+  }
+}

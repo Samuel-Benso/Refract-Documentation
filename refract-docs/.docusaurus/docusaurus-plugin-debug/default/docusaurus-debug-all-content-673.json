@@ -20,6 +20,60 @@
           "contentPathLocalized": "C:\\Users\\HELLO\\Documents\\Docs\\Refract\\refract-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "id": "advanced/performance",
+              "title": "Performance Optimization",
+              "description": "This guide covers various techniques to optimize the performance of your Refract applications.",
+              "source": "@site/docs/advanced/performance.md",
+              "sourceDirName": "advanced",
+              "slug": "/advanced/performance",
+              "permalink": "/docs/advanced/performance",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/advanced/performance.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "performance",
+                "title": "Performance Optimization"
+              }
+            },
+            {
+              "id": "advanced/testing",
+              "title": "Testing Guide",
+              "description": "This guide covers best practices and utilities for testing Refract applications.",
+              "source": "@site/docs/advanced/testing.md",
+              "sourceDirName": "advanced",
+              "slug": "/advanced/testing",
+              "permalink": "/docs/advanced/testing",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/advanced/testing.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "testing",
+                "title": "Testing Guide"
+              }
+            },
+            {
+              "id": "api/api",
+              "title": "API Reference",
+              "description": "Welcome to the Refract API reference documentation. This section provides detailed information about the core APIs available in Refract.",
+              "source": "@site/docs/api/index.md",
+              "sourceDirName": "api",
+              "slug": "/api/",
+              "permalink": "/docs/api/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "api",
+                "title": "API Reference"
+              }
+            },
+            {
               "id": "api/createApp",
               "title": "createApp",
               "description": "The createApp function initializes a new Refract application instance. It serves as the entry point for your application, handling the root component setup and providing configuration options for the entire application.",
@@ -65,6 +119,24 @@
               "next": {
                 "title": "useRefraction",
                 "permalink": "/docs/api/useRefraction"
+              }
+            },
+            {
+              "id": "api/createOptic",
+              "title": "createOptic",
+              "description": "createOptic is a utility function that helps you create reactive references to nested state values in Refract.",
+              "source": "@site/docs/api/createOptic.md",
+              "sourceDirName": "api",
+              "slug": "/api/createOptic",
+              "permalink": "/docs/api/createOptic",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/createOptic.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "createOptic",
+                "title": "createOptic"
               }
             },
             {
@@ -332,6 +404,24 @@
               }
             },
             {
+              "id": "concepts/state-management",
+              "title": "State Management in Refract",
+              "description": "Refract provides a flexible and efficient state management system that works seamlessly with React components. This guide covers the core concepts and patterns for managing state in Refract applications.",
+              "source": "@site/docs/concepts/state-management.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/state-management",
+              "permalink": "/docs/concepts/state-management",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/state-management.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "state-management",
+                "title": "State Management in Refract"
+              }
+            },
+            {
               "id": "contributing",
               "title": "Contributing to Refract",
               "description": "Thank you for your interest in contributing to Refract! This guide will help you get started with contributing to the framework and its documentation.",
@@ -456,6 +546,24 @@
               "next": {
                 "title": "Building a Todo List App",
                 "permalink": "/docs/tutorials/todo-list"
+              }
+            },
+            {
+              "id": "tutorials/getting-started",
+              "title": "Getting Started",
+              "description": "Welcome to Refract! This guide will help you set up your first Refract application and understand its core concepts.",
+              "source": "@site/docs/tutorials/getting-started.md",
+              "sourceDirName": "tutorials",
+              "slug": "/tutorials/getting-started",
+              "permalink": "/docs/tutorials/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/tutorials/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "getting-started",
+                "title": "Getting Started"
               }
             },
             {

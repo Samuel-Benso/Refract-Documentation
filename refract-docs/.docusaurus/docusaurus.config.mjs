@@ -7,12 +7,13 @@ export default {
   "title": "Refract",
   "tagline": "A reactive, composable JavaScript framework for building modern UIs",
   "favicon": "img/favicon.ico",
-  "url": "https://refract-docs.netlify.app",
+  "url": "https://refract-documentation-i7fkgvid5-samuel-bensos-projects.vercel.app",
   "baseUrl": "/",
   "organizationName": "refract-js",
   "projectName": "refract",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -27,11 +28,25 @@ export default {
       {
         "docs": {
           "sidebarPath": "C:\\Users\\HELLO\\Documents\\Docs\\Refract\\refract-docs\\sidebars.js",
-          "editUrl": "https://github.com/refract-js/refract/tree/main/docs/"
+          "editUrl": "https://github.com/refract-js/refract/tree/main/docs/",
+          "path": "docs",
+          "routeBasePath": "/docs",
+          "include": [
+            "**/*.md",
+            "**/*.mdx"
+          ],
+          "exclude": [
+            "**/_*.{js,jsx,ts,tsx,md,mdx}"
+          ]
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/refract-js/refract/tree/main/docs/"
+          "editUrl": "https://github.com/refract-js/refract/tree/main/docs/",
+          "blogTitle": "Refract Blog",
+          "blogDescription": "Updates, news and announcements about the Refract framework",
+          "postsPerPage": 10,
+          "blogSidebarTitle": "Recent Posts",
+          "blogSidebarCount": 5
         },
         "theme": {
           "customCss": "C:\\Users\\HELLO\\Documents\\Docs\\Refract\\refract-docs\\src\\css\\custom.css"
@@ -62,13 +77,12 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Docs"
+          "to": "/docs/intro",
+          "label": "Documentation",
+          "position": "left"
         },
         {
-          "to": "/docs/api/overview",
+          "to": "/docs/api",
           "label": "API",
           "position": "left"
         },
@@ -97,11 +111,11 @@ export default {
             },
             {
               "label": "API Reference",
-              "to": "/docs/api/overview"
+              "to": "/docs/api"
             },
             {
               "label": "Tutorials",
-              "to": "/docs/tutorials/counter-app"
+              "to": "/docs/tutorials/getting-started"
             }
           ]
         },
@@ -330,7 +344,12 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "defaultLanguage": "javascript",
+      "additionalLanguages": [
+        "jsx",
+        "bash",
+        "json"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -345,13 +364,19 @@ export default {
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "respectPrefersColorScheme": true
     },
     "docs": {
-      "versionPersistence": "localStorage",
       "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
+    },
+    "onBrokenAnchors": "warn",
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
       }
     },
     "metadata": [],
@@ -361,6 +386,28 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
+  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -380,6 +427,9 @@ export default {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
     }
   }
 };

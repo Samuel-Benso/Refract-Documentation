@@ -27,6 +27,61 @@ interface Lens {
 }
 ```
 
+## Batching Updates {#batching}
+
+Batching allows you to group multiple state updates into a single re-render, which can significantly improve performance when making multiple related state changes.
+
+### `lens.batch(callback)`
+
+Groups multiple state updates into a single re-render.
+
+#### Parameters
+- `callback`: A function that contains the state updates to be batched.
+
+#### Returns
+- `void`
+
+#### Example
+
+```javascript
+const Counter = createComponent(({ lens }) => {
+  const count = lens.useRefraction(0);
+  const multiplier = lens.useRefraction(1);
+
+  const incrementWithBatching = () => {
+    // Without batching, this would cause two re-renders
+    lens.batch(() => {
+      count.value += 1;
+      multiplier.value = count.value * 2;
+    });
+    // Only one re-render happens here
+  };
+
+  return (
+    <div>
+      <p>Count: {count.value}</p>
+      <p>Multiplier: {multiplier.value}</p>
+      <button onClick={incrementWithBatching}>
+        Increment with Batching
+      </button>
+    </div>
+  );
+});
+```
+
+### When to Use Batching
+
+- **Multiple State Updates**: When you need to update multiple state values that are related
+- **Performance Optimization**: To minimize re-renders in performance-critical paths
+- **Complex State Transitions**: When state updates depend on each other
+
+### Best Practices
+
+1. **Group Related Updates**: Only batch updates that are logically related
+2. **Avoid Side Effects**: Keep the batch callback pure and free of side effects
+3. **Nesting**: Batching is automatically handled in nested batch calls
+4. **Async Operations**: Batching doesn't work with asynchronous code - each `await` is a potential render point
+
 ## Basic Usage
 
 ### Accessing the Lens

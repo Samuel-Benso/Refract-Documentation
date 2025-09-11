@@ -11,6 +11,18 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "advanced/performance",
+              "path": "/docs/advanced/performance"
+            },
+            {
+              "id": "advanced/testing",
+              "path": "/docs/advanced/testing"
+            },
+            {
+              "id": "api/api",
+              "path": "/docs/api/"
+            },
+            {
               "id": "api/createApp",
               "path": "/docs/api/createApp",
               "sidebar": "tutorialSidebar"
@@ -18,6 +30,11 @@
             {
               "id": "api/createComponent",
               "path": "/docs/api/createComponent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/createOptic",
+              "path": "/docs/api/createOptic",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -76,6 +93,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "concepts/state-management",
+              "path": "/docs/concepts/state-management"
+            },
+            {
               "id": "contributing",
               "path": "/docs/contributing",
               "sidebar": "tutorialSidebar"
@@ -103,6 +124,10 @@
               "id": "tutorials/counter-app",
               "path": "/docs/tutorials/counter-app",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/getting-started",
+              "path": "/docs/tutorials/getting-started"
             },
             {
               "id": "tutorials/global-theme",

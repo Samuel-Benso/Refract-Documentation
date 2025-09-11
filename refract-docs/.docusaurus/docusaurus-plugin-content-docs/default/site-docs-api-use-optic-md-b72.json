@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "useEffect",
-    "permalink": "/docs/api/useEffect"
+    "title": "useLens",
+    "permalink": "/docs/api/useLens"
   },
   "next": {
-    "title": "useFlash",
-    "permalink": "/docs/api/useFlash"
+    "title": "createOptic",
+    "permalink": "/docs/api/createOptic"
   }
 }

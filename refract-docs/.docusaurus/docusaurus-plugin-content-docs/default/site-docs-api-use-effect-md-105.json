@@ -18,7 +18,7 @@
     "permalink": "/docs/api/useRefraction"
   },
   "next": {
-    "title": "useOptic",
-    "permalink": "/docs/api/useOptic"
+    "title": "useFlash",
+    "permalink": "/docs/api/useFlash"
   }
 }

@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "useFlash",
-    "permalink": "/docs/api/useFlash"
+    "title": "createComponent",
+    "permalink": "/docs/api/createComponent"
   },
   "next": {
-    "title": "Building a Counter App",
-    "permalink": "/docs/tutorials/counter-app"
+    "title": "useOptic",
+    "permalink": "/docs/api/useOptic"
   }
 }

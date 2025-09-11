@@ -1,15 +1,17 @@
 {
-  "title": "Recent posts",
+  "title": "Recent Posts",
   "items": [
     {
       "title": "Mastering Performance in Refract - Advanced Optimization Techniques",
       "permalink": "/blog/performance-optimization-guide",
-      "unlisted": false
+      "unlisted": false,
+      "date": "2024-02-28T00:00:00.000Z"
     },
     {
       "title": "Introducing Refract - A New Era of Reactive UI Development",
       "permalink": "/blog/introducing-refract",
-      "unlisted": false
+      "unlisted": false,
+      "date": "2024-01-15T00:00:00.000Z"
     }
   ]
 }

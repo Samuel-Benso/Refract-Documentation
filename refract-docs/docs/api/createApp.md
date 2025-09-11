@@ -5,7 +5,8 @@ The `createApp` function initializes a new Refract application instance. It serv
 ## Syntax
 
 ```javascript
-createApp(RootComponent, options?)
+const app = createApp(RootComponent, options?);
+const unmount = app.mount(container);
 ```
 
 ## Parameters
@@ -37,15 +38,59 @@ interface AppOptions {
 }
 ```
 
+## Mounting the Application {#mount}
+
+After creating your application with `createApp`, you need to mount it to a DOM element using the `mount` method.
+
+### `app.mount(container)`
+
+Mounts the application to the specified container.
+
+#### Parameters
+- `container`: `string | HTMLElement` - A DOM element or a CSS selector string where the app will be mounted
+
+#### Returns
+- `Function` - A function to unmount the application
+
+#### Example
+
+```javascript
+// Mount to a DOM element
+const container = document.getElementById('app');
+const unmount = app.mount(container);
+
+// Later, you can unmount the app
+// unmount();
+```
+
 ## Return Value
 
 Returns an `App` instance with the following methods:
 
 ```typescript
 interface App {
-  mount(selector: string | Element): void;
+  /**
+   * Mounts the application to the specified container
+   * @param container - A DOM element or selector string where the app will be mounted
+   * @returns A function to unmount the application
+   */
+  mount(container: string | Element): () => void;
+  
+  /**
+   * Unmounts the application from the DOM
+   */
   unmount(): void;
+  
+  /**
+   * Gets the current application configuration
+   */
   getConfig(): AppConfig;
+  
+  /**
+   * Registers a plugin with the application
+   * @param plugin - The plugin to register
+   * @returns The app instance for chaining
+   */
   use(plugin: Plugin): App;
 }
 ```
