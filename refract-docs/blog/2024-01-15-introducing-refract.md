@@ -5,7 +5,7 @@ authors:
   - name: Refract Team
     title: Core Development Team
     url: https://github.com/refract-js
-    image_url: https://github.com/refract-js.png
+    image_url: /img/logo.svg
 tags: [announcement, reactive, javascript, ui]
 ---
 

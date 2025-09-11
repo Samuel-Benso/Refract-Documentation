@@ -12,37 +12,87 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/getting-started">
-            Get Started - 5min ⏱️
-          </Link>
-          <Link
-            className="button button--outline button--secondary button--lg"
-            to="/docs/api/overview"
-            style={{marginLeft: '1rem'}}>
-            API Reference
-          </Link>
-        </div>
-        <div className={styles.codeExample}>
-          <pre className={styles.codeBlock}>
-            <code>{`import { createApp, createComponent } from 'refract';
+        <div className={styles.heroContent}>
+          <div className={styles.heroText}>
+            <h1 className="hero__title">
+              <span className={styles.titleMain}>{siteConfig.title}</span>
+              <span className={styles.titleAccent}>Framework</span>
+            </h1>
+            <p className="hero__subtitle">
+              A simple JavaScript tool that makes building websites easier. 
+              Your website updates automatically when things change.
+            </p>
+            <div className={styles.heroStats}>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>Fast</div>
+                <div className={styles.statLabel}>Super Quick</div>
+              </div>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>Auto</div>
+                <div className={styles.statLabel}>Updates Itself</div>
+              </div>
+              <div className={styles.stat}>
+                <div className={styles.statNumber}>Easy</div>
+                <div className={styles.statLabel}>Simple to Use</div>
+              </div>
+            </div>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/installation">
+                <span>Start Now</span>
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/getting-started">
+                <span>Learn How</span>
+              </Link>
+              <Link
+                className="button button--outline button--secondary button--lg"
+                to="/docs/api/overview">
+                <span>All Features</span>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.heroCode}>
+            <div className={styles.codeWindow}>
+              <div className={styles.codeHeader}>
+                <div className={styles.codeButtons}>
+                  <span className={styles.codeButton} style={{background: '#ff5f56'}}></span>
+                  <span className={styles.codeButton} style={{background: '#ffbd2e'}}></span>
+                  <span className={styles.codeButton} style={{background: '#27ca3f'}}></span>
+                </div>
+                <div className={styles.codeTitle}>Counter.jsx</div>
+              </div>
+              <pre className={styles.codeBlock}>
+                <code>{`import { createApp, createComponent } from 'refract';
 
 const Counter = createComponent(({ lens }) => {
   const count = lens.useRefraction(0);
+  const theme = lens.useRefraction('light');
+  
+  const increment = () => count.set(prev => prev + 1);
+  const toggleTheme = () => theme.set(
+    prev => prev === 'light' ? 'dark' : 'light'
+  );
   
   return (
-    <button onClick={() => count.set(count.value + 1)}>
-      Clicked {count.value} times
-    </button>
+    <div className={\`counter \${theme.value}\`}>
+      <h2>Count: {count.value}</h2>
+      <button onClick={increment}>
+        Add One
+      </button>
+      <button onClick={toggleTheme}>
+        {theme.value === 'light' ? 'Dark Mode' : 'Light Mode'}
+      </button>
+    </div>
   );
 });
 
 createApp(Counter).mount('#root');`}</code>
-          </pre>
+              </pre>
+            </div>
+          </div>
         </div>
       </div>
     </header>

@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Welcome to Refract",
-  "description": "Refract is a modern, reactive JavaScript framework that brings clarity and composability to UI development. Built with developer experience in mind, Refract introduces innovative concepts like refractions, lenses, and optics to create maintainable, scalable applications.",
+  "description": "Refract is a JavaScript framework that makes building web apps easier. It helps you create apps that automatically update when your data changes. Refract uses special tools called refractions, lenses, and optics to help you build apps that are easy to maintain and grow.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

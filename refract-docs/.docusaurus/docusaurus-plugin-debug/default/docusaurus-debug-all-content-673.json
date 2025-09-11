@@ -46,7 +46,7 @@
             {
               "id": "api/createComponent",
               "title": "createComponent",
-              "description": "The createComponent function creates reactive components in Refract. Components are pure functions that receive props and a lens, returning JSX that describes the UI. They automatically re-render when their reactive dependencies change.",
+              "description": "The createComponent function helps you build interactive parts of your app in Refract. Think of components as building blocks - like buttons, forms, or entire pages. When you create a component, it automatically updates when its data changes.",
               "source": "@site/docs/api/createComponent.md",
               "sourceDirName": "api",
               "slug": "/api/createComponent",
@@ -354,7 +354,7 @@
             {
               "id": "getting-started",
               "title": "Getting Started",
-              "description": "Get up and running with Refract in just a few minutes. This guide will walk you through installation, project setup, and creating your first Refract application.",
+              "description": "Learn the fundamentals of Refract and build your first reactive application. This guide assumes you have already installed Refract and are ready to start coding.",
               "source": "@site/docs/getting-started.md",
               "sourceDirName": ".",
               "slug": "/getting-started",
@@ -376,9 +376,24 @@
               }
             },
             {
+              "id": "installation",
+              "title": "Installation",
+              "description": "Get Refract installed and ready to use in your project. Choose the method that best fits your development workflow.",
+              "source": "@site/docs/installation.md",
+              "sourceDirName": ".",
+              "slug": "/installation",
+              "permalink": "/docs/installation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/installation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
               "id": "intro",
               "title": "Welcome to Refract",
-              "description": "Refract is a modern, reactive JavaScript framework that brings clarity and composability to UI development. Built with developer experience in mind, Refract introduces innovative concepts like refractions, lenses, and optics to create maintainable, scalable applications.",
+              "description": "Refract is a JavaScript framework that makes building web apps easier. It helps you create apps that automatically update when your data changes. Refract uses special tools called refractions, lenses, and optics to help you build apps that are easy to maintain and grow.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -644,8 +659,8 @@
                 "name": "Refract Team",
                 "title": "Core Development Team",
                 "url": "https://github.com/refract-js",
-                "image_url": "https://github.com/refract-js.png",
-                "imageURL": "https://github.com/refract-js.png"
+                "image_url": "/img/logo.svg",
+                "imageURL": "/img/logo.svg"
               }
             ],
             "frontMatter": {
@@ -656,8 +671,8 @@
                   "name": "Refract Team",
                   "title": "Core Development Team",
                   "url": "https://github.com/refract-js",
-                  "image_url": "https://github.com/refract-js.png",
-                  "imageURL": "https://github.com/refract-js.png"
+                  "image_url": "/img/logo.svg",
+                  "imageURL": "/img/logo.svg"
                 }
               ],
               "tags": [
@@ -710,8 +725,8 @@
                 "name": "Refract Team",
                 "title": "Core Development Team",
                 "url": "https://github.com/refract-js",
-                "image_url": "https://github.com/refract-js.png",
-                "imageURL": "https://github.com/refract-js.png"
+                "image_url": "/img/logo.svg",
+                "imageURL": "/img/logo.svg"
               }
             ],
             "frontMatter": {
@@ -722,8 +737,8 @@
                   "name": "Refract Team",
                   "title": "Core Development Team",
                   "url": "https://github.com/refract-js",
-                  "image_url": "https://github.com/refract-js.png",
-                  "imageURL": "https://github.com/refract-js.png"
+                  "image_url": "/img/logo.svg",
+                  "imageURL": "/img/logo.svg"
                 }
               ],
               "tags": [

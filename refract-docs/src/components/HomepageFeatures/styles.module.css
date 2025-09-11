@@ -1,12 +1,315 @@
+/* Portfolio-Quality Features Section */
 .features {
+  padding: 6rem 0;
+  background: var(--ifm-background-color);
+  position: relative;
+}
+
+.techSection {
+  padding: 6rem 0;
+  background: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  background: var(--refract-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sectionSubtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-content-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Enhanced Feature Cards */
+.featureCard {
+  background: var(--ifm-background-surface-color);
+  border-radius: 16px;
+  padding: 2.5rem;
+  height: 100%;
+  box-shadow: var(--ifm-global-shadow-lw);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--refract-gradient);
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--ifm-global-shadow-tl);
+}
+
+.featureHeader {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .featureIcon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-md);
+  position: relative;
+}
+
+.featureIcon::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0;
+  text-align: center;
+}
+
+.featureContent {
+  text-align: center;
+}
+
+.featureDescription {
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.featureLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: rgba(102, 126, 234, 0.1);
+  transition: all 0.3s ease;
+}
+
+.featureLink:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  transform: translateX(4px);
+}
+
+/* Tech Highlights Grid */
+.techGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.techHighlight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: var(--ifm-background-color);
+  border-radius: 12px;
+  box-shadow: var(--ifm-global-shadow-lw);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.3s ease;
+}
+
+.techHighlight:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.techIcon {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--refract-gradient);
+  border-radius: 12px;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.techContent {
+  flex: 1;
+}
+
+.techValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.techLabel {
+  color: var(--ifm-color-content-secondary);
+  font-weight: 500;
+}
+
+/* Call to Action Section */
+.ctaSection {
+  text-align: center;
+  padding: 3rem;
+  background: var(--refract-gradient);
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23dots)"/></svg>');
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.ctaButtons .button {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.ctaButtons .button--primary {
+  background: white;
+  color: var(--ifm-color-primary);
+  border: none;
+}
+
+.ctaButtons .button--secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.ctaButtons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .features, .techSection {
+    padding: 4rem 0;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1.125rem;
+  }
+  
+  .featureCard {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .techGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaButtons .button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featureIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+  
+  .featureTitle {
+    font-size: 1.25rem;
+  }
+  
+  .techHighlight {
+    padding: 1.5rem;
+  }
+  
+  .techIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+  
+  .ctaSection {
+    padding: 2rem;
+  }
+  
+  .ctaTitle {
+    font-size: 1.5rem;
+  }
 }

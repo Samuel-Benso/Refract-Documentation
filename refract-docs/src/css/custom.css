@@ -4,92 +4,343 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Refract Brand Colors - Professional & Modern */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary Brand Colors - Purple/Blue Gradient Theme */
+  --ifm-color-primary: #667eea;
+  --ifm-color-primary-dark: #5a6fd8;
+  --ifm-color-primary-darker: #5469d4;
+  --ifm-color-primary-darkest: #4557c2;
+  --ifm-color-primary-light: #728dfc;
+  --ifm-color-primary-lighter: #7e99ff;
+  --ifm-color-primary-lightest: #9bb1ff;
+  
+  /* Secondary Colors */
+  --ifm-color-secondary: #764ba2;
+  --ifm-color-secondary-dark: #6a4391;
+  --ifm-color-secondary-darker: #644089;
+  --ifm-color-secondary-darkest: #533570;
+  --ifm-color-secondary-light: #8253b3;
+  --ifm-color-secondary-lighter: #8856bb;
+  --ifm-color-secondary-lightest: #9a65d3;
+  
+  /* Accent Colors */
+  --refract-accent-purple: #8b5cf6;
+  --refract-accent-blue: #3b82f6;
+  --refract-accent-cyan: #06b6d4;
+  --refract-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --refract-gradient-light: linear-gradient(135deg, #728dfc 0%, #8253b3 100%);
+  
+  /* Enhanced Typography */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.5rem;
+  
+  /* Enhanced Spacing & Layout */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-navbar-height: 4rem;
+  --ifm-footer-padding-vertical: 3rem;
+  
+  /* Code Highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(102, 126, 234, 0.1);
+  --ifm-code-background: #f8fafc;
+  --ifm-code-color: #667eea;
+  
+  /* Professional Shadows */
+  --ifm-global-shadow-lw: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-tl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode - Professional Dark Theme */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #8b5cf6;
+  --ifm-color-primary-dark: #7c3aed;
+  --ifm-color-primary-darker: #7c3aed;
+  --ifm-color-primary-darkest: #6d28d9;
+  --ifm-color-primary-light: #a78bfa;
+  --ifm-color-primary-lighter: #c4b5fd;
+  --ifm-color-primary-lightest: #ddd6fe;
+  
+  --ifm-color-secondary: #a78bfa;
+  --ifm-color-secondary-dark: #8b5cf6;
+  --ifm-color-secondary-darker: #7c3aed;
+  --ifm-color-secondary-darkest: #6d28d9;
+  --ifm-color-secondary-light: #c4b5fd;
+  --ifm-color-secondary-lighter: #ddd6fe;
+  --ifm-color-secondary-lightest: #ede9fe;
+  
+  --refract-gradient: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  --refract-gradient-light: linear-gradient(135deg, #a78bfa 0%, #818cf8 100%);
+  
+  --docusaurus-highlighted-code-line-bg: rgba(139, 92, 246, 0.15);
+  --ifm-code-background: #1e293b;
+  --ifm-code-color: #a78bfa;
+  
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
 }
 
-/* Custom styles for Refract branding */
+/* Enhanced Refract Branding & Professional Styling */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Hero Section - Portfolio Quality */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--refract-gradient);
   color: white;
+  position: relative;
+  overflow: hidden;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  opacity: 0.3;
 }
 
 .hero__title {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  z-index: 1;
 }
 
 .hero__subtitle {
-  font-size: 1.5rem;
-  opacity: 0.9;
+  font-size: 1.25rem;
+  opacity: 0.95;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
 }
 
+/* Enhanced Features Section */
 .feature {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+  margin: 1rem;
+}
+
+.feature:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-md);
 }
 
 .feature__icon {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+  filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.2));
+}
+
+.feature h3 {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.code-block-highlight {
-  background-color: var(--ifm-color-emphasis-200);
-  border-left: 4px solid var(--ifm-color-primary);
-  padding: 1rem;
-  margin: 1rem 0;
+.feature p {
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.6;
 }
 
+/* Professional Code Blocks */
+.code-block-highlight {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+/* Enhanced API Method Badges */
 .api-method {
-  background-color: var(--ifm-color-emphasis-100);
-  border-radius: 4px;
-  padding: 0.25rem 0.5rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 6px;
+  padding: 0.375rem 0.75rem;
   font-family: var(--ifm-font-family-monospace);
   font-size: 0.875rem;
   font-weight: 600;
+  display: inline-block;
+  margin: 0.25rem;
+  box-shadow: var(--ifm-global-shadow-lw);
 }
 
 .api-method--get {
-  background-color: #e3f2fd;
-  color: #1976d2;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
 }
 
 .api-method--post {
-  background-color: #e8f5e8;
-  color: #388e3c;
+  background: linear-gradient(135deg, #10b981 0%, #047857 100%);
 }
 
+.api-method--put {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.api-method--delete {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+/* Professional Concept Cards */
 .concept-card {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1rem 0;
-  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  background: var(--ifm-background-surface-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.concept-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--refract-gradient);
+}
+
+.concept-card:hover {
+  box-shadow: var(--ifm-global-shadow-md);
+  transform: translateY(-2px);
 }
 
 .concept-card h3 {
   margin-top: 0;
   color: var(--ifm-color-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
+
+/* Enhanced Navigation */
+.navbar {
+  box-shadow: var(--ifm-global-shadow-lw);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(15, 23, 42, 0.95);
+}
+
+/* Professional Footer */
+.footer {
+  background: var(--refract-gradient);
+  color: white;
+}
+
+.footer__title {
+  color: white;
+  font-weight: 600;
+}
+
+.footer__item {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__item:hover {
+  color: white;
+}
+
+/* Enhanced Tables */
+.table-of-contents {
+  border-left: 3px solid var(--ifm-color-primary);
+  padding-left: 1rem;
+}
+
+/* Professional Buttons */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.button--primary {
+  background: var(--refract-gradient);
+  border: none;
+}
+
+.button--secondary {
+  background: white;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .button--secondary {
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-primary-light);
+  border-color: var(--ifm-color-primary-light);
+}
+
+/* Responsive Design Enhancements */
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .feature {
+    padding: 2rem 1rem;
+    margin: 0.5rem;
+  }
+}
+
+/* Portfolio Quality Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.feature:nth-child(1) { animation-delay: 0.1s; }
+.feature:nth-child(2) { animation-delay: 0.2s; }
+.feature:nth-child(3) { animation-delay: 0.3s; }

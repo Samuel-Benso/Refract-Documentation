@@ -31,8 +31,8 @@
       "name": "Refract Team",
       "title": "Core Development Team",
       "url": "https://github.com/refract-js",
-      "image_url": "https://github.com/refract-js.png",
-      "imageURL": "https://github.com/refract-js.png"
+      "image_url": "/img/logo.svg",
+      "imageURL": "/img/logo.svg"
     }
   ],
   "frontMatter": {
@@ -43,8 +43,8 @@
         "name": "Refract Team",
         "title": "Core Development Team",
         "url": "https://github.com/refract-js",
-        "image_url": "https://github.com/refract-js.png",
-        "imageURL": "https://github.com/refract-js.png"
+        "image_url": "/img/logo.svg",
+        "imageURL": "/img/logo.svg"
       }
     ],
     "tags": [

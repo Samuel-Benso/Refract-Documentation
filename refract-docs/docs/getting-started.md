@@ -1,36 +1,14 @@
 # Getting Started
 
-Get up and running with Refract in just a few minutes. This guide will walk you through installation, project setup, and creating your first Refract application.
+Learn the fundamentals of Refract and build your first reactive application. This guide assumes you have already [installed Refract](./installation) and are ready to start coding.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before following this guide, make sure you have:
 
-- **Node.js** (version 16 or higher)
-- **npm** or **yarn** package manager
-- A modern code editor (VS Code recommended)
-
-## Installation
-
-### Create a New Project
-
-The fastest way to get started is using the Refract CLI:
-
-```bash
-npx create-refract-app my-app
-cd my-app
-npm start
-```
-
-### Add to Existing Project
-
-If you want to add Refract to an existing project:
-
-```bash
-npm install refract-js
-# or
-yarn add refract-js
-```
+- Refract installed in your project ([Installation Guide](./installation))
+- Basic knowledge of JavaScript and JSX
+- A code editor with syntax highlighting
 
 ## Project Structure
 

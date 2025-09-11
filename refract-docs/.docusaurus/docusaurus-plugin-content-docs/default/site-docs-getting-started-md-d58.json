@@ -1,7 +1,7 @@
 {
   "id": "getting-started",
   "title": "Getting Started",
-  "description": "Get up and running with Refract in just a few minutes. This guide will walk you through installation, project setup, and creating your first Refract application.",
+  "description": "Learn the fundamentals of Refract and build your first reactive application. This guide assumes you have already installed Refract and are ready to start coding.",
   "source": "@site/docs/getting-started.md",
   "sourceDirName": ".",
   "slug": "/getting-started",

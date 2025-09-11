@@ -86,6 +86,10 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "installation",
+              "path": "/docs/installation"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

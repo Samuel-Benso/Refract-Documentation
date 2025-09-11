@@ -1,27 +1,33 @@
 # createComponent
 
-The `createComponent` function creates reactive components in Refract. Components are pure functions that receive props and a lens, returning JSX that describes the UI. They automatically re-render when their reactive dependencies change.
+The `createComponent` function helps you build interactive parts of your app in Refract. Think of components as building blocks - like buttons, forms, or entire pages. When you create a component, it automatically updates when its data changes.
 
-## Syntax
+## How to use it
 
 ```javascript
 createComponent((props) => JSX.Element)
 ```
 
-## Parameters
+## What you need to provide
 
-### `componentFunction`
-- **Type:** `(props: Props & { lens: Lens }) => JSX.Element`
+You need to give `createComponent` a function that describes what your component should look like and do.
+
+### The component function
+- **What it is:** A function that gets props (including a special `lens` object) and returns JSX
 - **Required:** Yes
-- **Description:** A function that receives props (including lens) and returns JSX
+- **Type:** `(props: Props & { lens: Lens }) => JSX.Element`
 
-## Return Value
+The `lens` object gives you access to Refract's reactive features like state management and effects.
 
-Returns a `Component` that can be used in JSX or passed to other Refract functions.
+## What you get back
 
-## Basic Usage
+You get a component that you can use anywhere in your app - in JSX code or pass to other Refract functions.
 
-### Simple Component
+## Let's see some examples
+
+Here are some ways to use `createComponent` in real projects.
+
+### A simple greeting component
 
 ```javascript
 import { createComponent } from 'refract';
@@ -34,12 +40,16 @@ const Greeting = createComponent(({ lens, name }) => {
 <Greeting name="World" />
 ```
 
-### Component with State
+### A counter with changing numbers
+
+This example shows how to create a component that remembers and changes data.
 
 ```javascript
 const Counter = createComponent(({ lens, initialCount = 0 }) => {
+  // Create a number that can change over time
   const count = lens.useRefraction(initialCount);
   
+  // Functions to change the number
   const increment = () => count.set(count.value + 1);
   const decrement = () => count.set(count.value - 1);
   
@@ -53,14 +63,18 @@ const Counter = createComponent(({ lens, initialCount = 0 }) => {
 });
 ```
 
-### Component with Effects
+### A component that loads data from the internet
+
+This shows how to fetch user information when the component starts up.
 
 ```javascript
 const UserProfile = createComponent(({ lens, userId }) => {
+  // Store the user data, loading state, and any errors
   const user = lens.useRefraction(null);
   const loading = lens.useRefraction(true);
   const error = lens.useRefraction(null);
   
+  // This runs when the component starts or when userId changes
   lens.useEffect(() => {
     const fetchUser = async () => {
       try {
@@ -76,8 +90,9 @@ const UserProfile = createComponent(({ lens, userId }) => {
     };
     
     fetchUser();
-  }, [userId]);
+  }, [userId]); // Only run when userId changes
   
+  // Show different things based on the current state
   if (loading.value) return <div>Loading...</div>;
   if (error.value) return <div>Error: {error.value}</div>;
   

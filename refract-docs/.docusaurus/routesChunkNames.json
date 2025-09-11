@@ -207,17 +207,17 @@
       "plugin": "plugin---search-732-6d7"
     }
   },
-  "/docs-739": {
+  "/docs-594": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-84-b-cbc"
     }
   },
-  "/docs-06b": {
+  "/docs-aa9": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-f80": {
+  "/docs-b38": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/api/createApp-f05": {
@@ -279,6 +279,10 @@
   "/docs/getting-started-a24": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-getting-startedd-58-f94"
+  },
+  "/docs/installation-b2a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-installation-3-b-8-7c6"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,20 +1,20 @@
 # Welcome to Refract
 
-**Refract** is a modern, reactive JavaScript framework that brings clarity and composability to UI development. Built with developer experience in mind, Refract introduces innovative concepts like **refractions**, **lenses**, and **optics** to create maintainable, scalable applications.
+**Refract** is a JavaScript framework that makes building web apps easier. It helps you create apps that automatically update when your data changes. Refract uses special tools called **refractions**, **lenses**, and **optics** to help you build apps that are easy to maintain and grow.
 
 ## Why Choose Refract?
 
-### 🚀 **Reactive by Nature**
-State changes automatically propagate through your application without manual intervention. No more `setState` calls or complex state management libraries.
+### **Reactive by Nature**
+Your app updates automatically when data changes. No need to manually tell parts of your app to refresh - Refract handles this for you.
 
-### 🔧 **Composable Architecture**
-Build reusable logic with optics and lenses. Create modular components that can be easily tested and maintained.
+### **Build with Reusable Pieces**
+Create logic once and use it everywhere. Refract's optics and lenses help you build components that are easy to test and maintain.
 
-### 💡 **Familiar Yet Fresh**
-If you know React, you'll feel at home with Refract's component model, while enjoying modern reactive programming patterns.
+### **Familiar Yet Fresh**
+If you know React, you'll feel right at home. Refract uses similar concepts but makes them even easier to work with.
 
-### ⚡ **Performance Optimized**
-Fine-grained reactivity ensures only the components that need updates are re-rendered, leading to excellent performance out of the box.
+### **Fast Performance**
+Only the parts of your app that actually need to update will re-render. This means your app stays fast even as it grows.
 
 ## Quick Example
 
@@ -65,4 +65,4 @@ createApp(TodoApp).mount('#root');
 - **[API Reference](./api/overview)** - Comprehensive API documentation
 - **[Tutorials](./tutorials/counter-app)** - Step-by-step guides and examples
 
-Ready to refract your development experience? Let's get started! 🌟
+Ready to start building with Refract? Let's get started!

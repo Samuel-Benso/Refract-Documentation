@@ -109,15 +109,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '739'),
+    component: ComponentCreator('/docs', '594'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '06b'),
+        component: ComponentCreator('/docs', 'aa9'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f80'),
+            component: ComponentCreator('/docs', 'b38'),
             routes: [
               {
                 path: '/docs/api/createApp',
@@ -208,6 +208,11 @@ export default [
                 component: ComponentCreator('/docs/getting-started', 'a24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/installation',
+                component: ComponentCreator('/docs/installation', 'b2a'),
+                exact: true
               },
               {
                 path: '/docs/intro',
