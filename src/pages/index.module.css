@@ -1,0 +1,242 @@
+/**
+ * Portfolio-Quality Homepage Styles
+ * Modern, professional design for recruiters
+ */
+
+.heroBanner {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--refract-gradient);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.heroText {
+  z-index: 2;
+  position: relative;
+}
+
+.titleMain {
+  display: block;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.titleAccent {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 300;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+.heroStats {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  justify-content: flex-start;
+}
+
+.stat {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.statNumber {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 3rem 0 0 0;
+  flex-wrap: wrap;
+}
+
+.buttons .button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.heroCode {
+  position: relative;
+  z-index: 2;
+}
+
+.codeWindow {
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.codeHeader {
+  background: #334155;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.codeButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.codeButton {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+}
+
+.codeTitle {
+  color: #e2e8f0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.codeBlock {
+  background: transparent;
+  padding: 2rem;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  margin: 0;
+}
+
+.codeBlock code {
+  color: inherit;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+}
+
+/* Syntax highlighting for the code */
+.codeBlock code .token.keyword {
+  color: #c792ea;
+}
+
+.codeBlock code .token.string {
+  color: #c3e88d;
+}
+
+.codeBlock code .token.function {
+  color: #82aaff;
+}
+
+.codeBlock code .token.number {
+  color: #f78c6c;
+}
+
+.codeBlock code .token.comment {
+  color: #546e7a;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+  
+  .heroContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .titleMain {
+    font-size: 3rem;
+  }
+  
+  .titleAccent {
+    font-size: 2rem;
+  }
+  
+  .heroStats {
+    justify-content: center;
+  }
+  
+  .buttons {
+    justify-content: center;
+  }
+  
+  .codeWindow {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titleMain {
+    font-size: 2.5rem;
+  }
+  
+  .titleAccent {
+    font-size: 1.5rem;
+  }
+  
+  .heroStats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .stat {
+    padding: 0.75rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .buttons .button {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+}

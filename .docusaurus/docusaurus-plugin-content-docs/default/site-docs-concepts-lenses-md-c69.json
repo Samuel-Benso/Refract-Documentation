@@ -1,0 +1,24 @@
+{
+  "id": "concepts/lenses",
+  "title": "Lenses",
+  "description": "Lenses are Refract's scoped interface to reactive features within components. They provide a clean, organized way to access refractions, effects, and optics while maintaining proper component boundaries and lifecycle management.",
+  "source": "@site/docs/concepts/lenses.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/lenses",
+  "permalink": "/docs/concepts/lenses",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/lenses.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Refractions",
+    "permalink": "/docs/concepts/refractions"
+  },
+  "next": {
+    "title": "Optics",
+    "permalink": "/docs/concepts/optics"
+  }
+}

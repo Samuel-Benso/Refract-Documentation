@@ -1,0 +1,15 @@
+{
+  "id": "developers/integration-guide",
+  "title": "integration-guide",
+  "description": "",
+  "source": "@site/docs/developers/integration-guide.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/integration-guide",
+  "permalink": "/docs/developers/integration-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/developers/integration-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

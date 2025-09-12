@@ -1,0 +1,15 @@
+{
+  "id": "features/dashboard",
+  "title": "dashboard",
+  "description": "",
+  "source": "@site/docs/features/dashboard.md",
+  "sourceDirName": "features",
+  "slug": "/features/dashboard",
+  "permalink": "/docs/features/dashboard",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/features/dashboard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

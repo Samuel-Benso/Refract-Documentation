@@ -1,0 +1,24 @@
+{
+  "id": "concepts/optics",
+  "title": "Optics",
+  "description": "Optics are Refract's composable logic units that encapsulate reusable patterns and behaviors. They're similar to React hooks but designed specifically for Refract's reactive system, providing a clean way to share stateful logic between components while maintaining proper reactivity and lifecycle management.",
+  "source": "@site/docs/concepts/optics.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/optics",
+  "permalink": "/docs/concepts/optics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/optics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lenses",
+    "permalink": "/docs/concepts/lenses"
+  },
+  "next": {
+    "title": "Effects",
+    "permalink": "/docs/concepts/effects"
+  }
+}

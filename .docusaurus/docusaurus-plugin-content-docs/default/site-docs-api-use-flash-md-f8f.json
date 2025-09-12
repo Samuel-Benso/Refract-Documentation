@@ -1,0 +1,24 @@
+{
+  "id": "api/useFlash",
+  "title": "useFlash",
+  "description": "The useFlash hook executes effects after the component has rendered and the DOM has been updated. It's specifically designed for operations that need to happen after the render cycle, such as animations, DOM measurements, and focus management.",
+  "source": "@site/docs/api/useFlash.md",
+  "sourceDirName": "api",
+  "slug": "/api/useFlash",
+  "permalink": "/docs/api/useFlash",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/useFlash.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useEffect",
+    "permalink": "/docs/api/useEffect"
+  },
+  "next": {
+    "title": "Building a Counter App",
+    "permalink": "/docs/tutorials/counter-app"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "tutorials/global-theme",
+  "title": "Global Theme Management",
+  "description": "Learn how to implement a global theme system in Refract using refractions and optics for consistent styling across your application.",
+  "source": "@site/docs/tutorials/global-theme.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/global-theme",
+  "permalink": "/docs/tutorials/global-theme",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/tutorials/global-theme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building a Todo List App",
+    "permalink": "/docs/tutorials/todo-list"
+  },
+  "next": {
+    "title": "Animation Basics",
+    "permalink": "/docs/tutorials/animation-basics"
+  }
+}

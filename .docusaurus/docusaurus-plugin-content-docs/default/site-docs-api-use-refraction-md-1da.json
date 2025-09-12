@@ -1,0 +1,24 @@
+{
+  "id": "api/useRefraction",
+  "title": "useRefraction",
+  "description": "The useRefraction hook creates reactive state variables that automatically trigger UI updates when their values change. It's the primary way to manage state in Refract components, providing a simple yet powerful interface for reactive programming.",
+  "source": "@site/docs/api/useRefraction.md",
+  "sourceDirName": "api",
+  "slug": "/api/useRefraction",
+  "permalink": "/docs/api/useRefraction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/useRefraction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "createOptic",
+    "permalink": "/docs/api/createOptic"
+  },
+  "next": {
+    "title": "useEffect",
+    "permalink": "/docs/api/useEffect"
+  }
+}

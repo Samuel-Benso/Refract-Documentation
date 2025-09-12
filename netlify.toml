@@ -1,0 +1,13 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18.17.0"
+  NPM_FLAGS = "--production=false"
+  NODE_OPTIONS = "--max_old_space_size=4096"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

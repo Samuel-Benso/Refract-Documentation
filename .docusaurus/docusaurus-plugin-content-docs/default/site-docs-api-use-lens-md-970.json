@@ -1,0 +1,24 @@
+{
+  "id": "api/useLens",
+  "title": "useLens",
+  "description": "The useLens hook provides access to the lens system within Refract components. The lens is the primary interface for accessing reactive features like state management, effects, and optics in a component-scoped manner.",
+  "source": "@site/docs/api/useLens.md",
+  "sourceDirName": "api",
+  "slug": "/api/useLens",
+  "permalink": "/docs/api/useLens",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/useLens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "createComponent",
+    "permalink": "/docs/api/createComponent"
+  },
+  "next": {
+    "title": "useOptic",
+    "permalink": "/docs/api/useOptic"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "developers/webhooks",
+  "title": "webhooks",
+  "description": "",
+  "source": "@site/docs/developers/webhooks.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/webhooks",
+  "permalink": "/docs/developers/webhooks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/developers/webhooks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

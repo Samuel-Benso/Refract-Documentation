@@ -1,0 +1,18 @@
+{
+  "id": "concepts/state-management",
+  "title": "State Management in Refract",
+  "description": "Refract provides a flexible and efficient state management system that works seamlessly with React components. This guide covers the core concepts and patterns for managing state in Refract applications.",
+  "source": "@site/docs/concepts/state-management.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/state-management",
+  "permalink": "/docs/concepts/state-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/state-management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "state-management",
+    "title": "State Management in Refract"
+  }
+}

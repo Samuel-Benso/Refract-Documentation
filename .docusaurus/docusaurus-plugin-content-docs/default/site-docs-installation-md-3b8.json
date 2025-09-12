@@ -1,0 +1,15 @@
+{
+  "id": "installation",
+  "title": "Installation",
+  "description": "Get Refract installed and ready to use in your project. Choose the method that best fits your development workflow.",
+  "source": "@site/docs/installation.md",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/docs/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

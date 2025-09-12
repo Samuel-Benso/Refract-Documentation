@@ -1,0 +1,15 @@
+{
+  "id": "Introduction/faq",
+  "title": "faq",
+  "description": "",
+  "source": "@site/docs/Introduction/faq.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/faq",
+  "permalink": "/docs/Introduction/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/Introduction/faq.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

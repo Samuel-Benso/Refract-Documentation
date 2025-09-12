@@ -1,0 +1,15 @@
+{
+  "id": "features/realtime-feedback",
+  "title": "realtime-feedback",
+  "description": "",
+  "source": "@site/docs/features/realtime-feedback.md",
+  "sourceDirName": "features",
+  "slug": "/features/realtime-feedback",
+  "permalink": "/docs/features/realtime-feedback",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/features/realtime-feedback.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

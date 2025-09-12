@@ -1,0 +1,27 @@
+{
+  "id": "Introduction/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Introduction/congratulations.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/congratulations",
+  "permalink": "/docs/Introduction/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/twmp/refract-docs/edit/main/docs/Introduction/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Introduction/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
+  }
+}

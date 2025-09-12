@@ -1,0 +1,15 @@
+{
+  "id": "developers/authentication",
+  "title": "authentication",
+  "description": "",
+  "source": "@site/docs/developers/authentication.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/authentication",
+  "permalink": "/docs/developers/authentication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/developers/authentication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "concepts/components",
+  "title": "Components",
+  "description": "Components are the building blocks of Refract applications. They are pure functions that describe what the UI should look like based on the current state. Unlike traditional frameworks, Refract components are created using the createComponent() function and receive reactive capabilities through the lens system.",
+  "source": "@site/docs/concepts/components.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/components",
+  "permalink": "/docs/concepts/components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/concepts/components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting-started"
+  },
+  "next": {
+    "title": "Refractions",
+    "permalink": "/docs/concepts/refractions"
+  }
+}

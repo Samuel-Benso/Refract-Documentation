@@ -1,0 +1,15 @@
+{
+  "id": "features/api-access",
+  "title": "api-access",
+  "description": "",
+  "source": "@site/docs/features/api-access.md",
+  "sourceDirName": "features",
+  "slug": "/features/api-access",
+  "permalink": "/docs/features/api-access",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/features/api-access.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Welcome to Refract",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "5 minutes to learn the most important Refract concepts."
+  }
+}

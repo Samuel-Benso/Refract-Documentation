@@ -1,0 +1,24 @@
+{
+  "id": "api/useEffect",
+  "title": "useEffect",
+  "description": "The useEffect hook handles side effects and lifecycle management in Refract components. It provides a declarative way to perform operations like data fetching, subscriptions, timers, and DOM manipulation while ensuring proper cleanup and dependency tracking.",
+  "source": "@site/docs/api/useEffect.md",
+  "sourceDirName": "api",
+  "slug": "/api/useEffect",
+  "permalink": "/docs/api/useEffect",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/useEffect.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "useRefraction",
+    "permalink": "/docs/api/useRefraction"
+  },
+  "next": {
+    "title": "useFlash",
+    "permalink": "/docs/api/useFlash"
+  }
+}

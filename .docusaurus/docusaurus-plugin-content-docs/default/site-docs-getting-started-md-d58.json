@@ -1,0 +1,24 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "description": "Learn the fundamentals of Refract and build your first reactive application. This guide assumes you have already installed Refract and are ready to start coding.",
+  "source": "@site/docs/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/docs/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to Refract",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Components",
+    "permalink": "/docs/concepts/components"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "contributing",
+  "title": "Contributing to Refract",
+  "description": "Thank you for your interest in contributing to Refract! This guide will help you get started with contributing to the framework and its documentation.",
+  "source": "@site/docs/contributing.md",
+  "sourceDirName": ".",
+  "slug": "/contributing",
+  "permalink": "/docs/contributing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/contributing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Animation Basics",
+    "permalink": "/docs/tutorials/animation-basics"
+  }
+}

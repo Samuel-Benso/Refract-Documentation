@@ -1,0 +1,15 @@
+{
+  "id": "faqs/troubleshooting",
+  "title": "troubleshooting",
+  "description": "",
+  "source": "@site/docs/faqs/troubleshooting.md",
+  "sourceDirName": "faqs",
+  "slug": "/faqs/troubleshooting",
+  "permalink": "/docs/faqs/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/faqs/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

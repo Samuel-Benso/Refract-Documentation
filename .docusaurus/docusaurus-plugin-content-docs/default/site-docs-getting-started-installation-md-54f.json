@@ -1,0 +1,15 @@
+{
+  "id": "getting-started/installation",
+  "title": "installation",
+  "description": "",
+  "source": "@site/docs/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/docs/getting-started/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/getting-started/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

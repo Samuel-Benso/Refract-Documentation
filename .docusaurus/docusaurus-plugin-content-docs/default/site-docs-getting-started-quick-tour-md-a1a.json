@@ -1,0 +1,15 @@
+{
+  "id": "getting-started/quick-tour",
+  "title": "quick-tour",
+  "description": "",
+  "source": "@site/docs/getting-started/quick-tour.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-tour",
+  "permalink": "/docs/getting-started/quick-tour",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/getting-started/quick-tour.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

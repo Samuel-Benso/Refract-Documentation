@@ -1,0 +1,15 @@
+{
+  "id": "faqs/general",
+  "title": "general",
+  "description": "",
+  "source": "@site/docs/faqs/general.md",
+  "sourceDirName": "faqs",
+  "slug": "/faqs/general",
+  "permalink": "/docs/faqs/general",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/faqs/general.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

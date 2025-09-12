@@ -1,0 +1,15 @@
+{
+  "id": "Introduction/overview",
+  "title": "overview",
+  "description": "",
+  "source": "@site/docs/Introduction/overview.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/overview",
+  "permalink": "/docs/Introduction/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/Introduction/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

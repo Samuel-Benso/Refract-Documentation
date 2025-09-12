@@ -1,0 +1,18 @@
+{
+  "id": "tutorials/getting-started",
+  "title": "Getting Started",
+  "description": "Welcome to Refract! This guide will help you set up your first Refract application and understand its core concepts.",
+  "source": "@site/docs/tutorials/getting-started.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/getting-started",
+  "permalink": "/docs/tutorials/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/tutorials/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "getting-started",
+    "title": "Getting Started"
+  }
+}

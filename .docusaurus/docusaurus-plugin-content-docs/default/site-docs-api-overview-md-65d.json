@@ -1,0 +1,24 @@
+{
+  "id": "api/overview",
+  "title": "API Reference Overview",
+  "description": "This section provides comprehensive documentation for all Refract APIs, including core functions, hooks, utilities, and configuration options. Each API is documented with detailed descriptions, parameters, return values, and practical examples.",
+  "source": "@site/docs/api/overview.md",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/docs/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/api/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Effects",
+    "permalink": "/docs/concepts/effects"
+  },
+  "next": {
+    "title": "createApp",
+    "permalink": "/docs/api/createApp"
+  }
+}

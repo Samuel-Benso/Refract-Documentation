@@ -1,0 +1,15 @@
+{
+  "id": "Introduction/getting-started",
+  "title": "getting-started",
+  "description": "",
+  "source": "@site/docs/Introduction/getting-started.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/getting-started",
+  "permalink": "/docs/Introduction/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/Introduction/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,217 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "advanced/performance",
+              "path": "/docs/advanced/performance"
+            },
+            {
+              "id": "advanced/testing",
+              "path": "/docs/advanced/testing"
+            },
+            {
+              "id": "api/api",
+              "path": "/docs/api/"
+            },
+            {
+              "id": "api/createApp",
+              "path": "/docs/api/createApp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/createComponent",
+              "path": "/docs/api/createComponent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/createOptic",
+              "path": "/docs/api/createOptic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/api/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useEffect",
+              "path": "/docs/api/useEffect",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useFlash",
+              "path": "/docs/api/useFlash",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useLens",
+              "path": "/docs/api/useLens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useOptic",
+              "path": "/docs/api/useOptic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/useRefraction",
+              "path": "/docs/api/useRefraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/components",
+              "path": "/docs/concepts/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/effects",
+              "path": "/docs/concepts/effects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/lenses",
+              "path": "/docs/concepts/lenses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/optics",
+              "path": "/docs/concepts/optics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/refractions",
+              "path": "/docs/concepts/refractions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concepts/state-management",
+              "path": "/docs/concepts/state-management"
+            },
+            {
+              "id": "contributing",
+              "path": "/docs/contributing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developers/api-overview",
+              "path": "/docs/developers/api-overview"
+            },
+            {
+              "id": "developers/authentication",
+              "path": "/docs/developers/authentication"
+            },
+            {
+              "id": "developers/endpoints",
+              "path": "/docs/developers/endpoints"
+            },
+            {
+              "id": "developers/integration-guide",
+              "path": "/docs/developers/integration-guide"
+            },
+            {
+              "id": "developers/webhooks",
+              "path": "/docs/developers/webhooks"
+            },
+            {
+              "id": "faqs/general",
+              "path": "/docs/faqs/general"
+            },
+            {
+              "id": "faqs/troubleshooting",
+              "path": "/docs/faqs/troubleshooting"
+            },
+            {
+              "id": "features/api-access",
+              "path": "/docs/features/api-access"
+            },
+            {
+              "id": "features/dashboard",
+              "path": "/docs/features/dashboard"
+            },
+            {
+              "id": "features/realtime-feedback",
+              "path": "/docs/features/realtime-feedback"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation"
+            },
+            {
+              "id": "getting-started/quick-tour",
+              "path": "/docs/getting-started/quick-tour"
+            },
+            {
+              "id": "installation",
+              "path": "/docs/installation"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/faq",
+              "path": "/docs/Introduction/faq"
+            },
+            {
+              "id": "Introduction/getting-started",
+              "path": "/docs/Introduction/getting-started"
+            },
+            {
+              "id": "Introduction/overview",
+              "path": "/docs/Introduction/overview"
+            },
+            {
+              "id": "tutorials/animation-basics",
+              "path": "/docs/tutorials/animation-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/counter-app",
+              "path": "/docs/tutorials/counter-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/getting-started",
+              "path": "/docs/tutorials/getting-started"
+            },
+            {
+              "id": "tutorials/global-theme",
+              "path": "/docs/tutorials/global-theme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/todo-list",
+              "path": "/docs/tutorials/todo-list",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "developers/endpoints",
+  "title": "endpoints",
+  "description": "",
+  "source": "@site/docs/developers/endpoints.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/endpoints",
+  "permalink": "/docs/developers/endpoints",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/refract-js/refract/tree/main/docs/docs/developers/endpoints.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
