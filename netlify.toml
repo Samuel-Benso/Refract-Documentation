@@ -3,7 +3,7 @@
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "18.17.0"
+  NODE_VERSION = "20.18.1"
   NPM_FLAGS = "--production=false"
   NODE_OPTIONS = "--max_old_space_size=4096"
 
