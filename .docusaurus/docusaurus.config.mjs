@@ -92,7 +92,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/refract-js/refract",
+          "href": "#",
           "label": "GitHub",
           "position": "right"
         }
@@ -131,6 +131,10 @@ export default {
               "href": "https://discord.gg/refract"
             },
             {
+              "label": "GitHub",
+              "href": "#"
+            },
+            {
               "label": "Twitter",
               "href": "https://twitter.com/refractjs"
             }
@@ -142,10 +146,6 @@ export default {
             {
               "label": "Blog",
               "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/refract-js/refract"
             }
           ]
         }
