@@ -44,6 +44,8 @@ const config = {
           routeBasePath: '/docs',
           include: ['**/*.md', '**/*.mdx'],
           exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}'],
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
